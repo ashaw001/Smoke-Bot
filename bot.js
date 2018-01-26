@@ -7,7 +7,19 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.channel.send('pong');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'ting') {
+    	message.reply('tong');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'bing') {
+    	message.channel.sendMessage("bong");
   	}
 });
 
