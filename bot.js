@@ -15,12 +15,8 @@ client.on('message', message => {
 var swanreply = ["Sup Swan","Just staying lit fam","About to pack another bowl"];
 
 client.on('message', message => {
-    if (message.author.id == 260241663018926080 && message.content === 'What\'s up smoke bot?') {
-    	for(i=0;i<3;i++){
-                 message.channel.send(swanreply[i]);
-                 }
-                 else {i=i-3}
-                 }
+    if (message.author.id == 260241663018926080 && message.content == 'smoke bot') {
+    	message.channel.send(swanreply[1]);
 });
 
 // THIS  MUST  BE  THIS  WAY
