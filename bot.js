@@ -14,12 +14,14 @@ client.on('message', message => {
 var swan = ["test","test2","test3"];
 
 client.on('message', message => {
+    var i = 0
     if (message.author.id == 260241663018926080) {
-        for (i=0;i<swan.length;i++)
+        if (i<3)
         {
     	message.channel.send(swan[i]);
-        return;
+        i++;
         }
+        else {i = i - 3;}
   	}
 });
 
