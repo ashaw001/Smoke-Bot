@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content == 'Join them') {
+    if (message.content = 'Join them') {
     	message.channel.send('I better get in on this one');
         message.channel.send('!toke');
   	}
