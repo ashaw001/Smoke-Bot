@@ -11,11 +11,10 @@ client.on('message', message => {
   	}
 });
 
-
 client.on('message', message => {
-    if (message.author.id == 260241663018926080 && message.content == 'sup smoke bot') 
-    {
+    if (message.author.id == 260241663018926080 && message.content == 'sup smoke bot') {
        message.channel.send('Staying lit fam');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
