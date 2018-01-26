@@ -11,6 +11,13 @@ client.on('message', message => {
   	}
 });
 
+var swan = "test";
+
+client.on('message', message => {
+    if (message.author.id == 260241663018926080) {
+    	message.channel.send(swan);
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
