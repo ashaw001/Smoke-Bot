@@ -15,7 +15,10 @@ var swan = ["test","test2","test3"];
 
 client.on('message', message => {
     if (message.author.id == 260241663018926080) {
-    	message.channel.send(swan[2]);
+        for (i=0;i<swan.length;i++)
+        {
+    	message.channel.send(swan[i]);
+        }
   	}
 });
 
