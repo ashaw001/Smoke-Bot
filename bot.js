@@ -11,19 +11,11 @@ client.on('message', message => {
   	}
 });
 
-var swan = ["test","test2","test3"];
-var test = 0;
 
 client.on('message', message => {
-    if (message.author.id == 260241663018926080) 
+    if (message.author.id == 260241663018926080 && message.content == 'sup smoke bot') 
     {
-        if (test < 2)
-        {
-    	message.channel.send(swan[test]);
-        test++;
-        }
-        else {var test = test - 3;}
-  	}
+       message.channel.send('Staying lit fam');
 });
 
 // THIS  MUST  BE  THIS  WAY
