@@ -1,1 +1,1 @@
-worker: node smoke.js
+worker: node bot.js
