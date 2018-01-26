@@ -12,11 +12,5 @@ client.on('message', message => {
 });
 
 
-client.on('message', message => {
-    if (message.author.id == 260241663018926080) {
-        message.channel.send('yo');
-    });
-
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
