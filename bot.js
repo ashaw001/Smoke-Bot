@@ -18,6 +18,7 @@ client.on('message', message => {
         for (i=0;i<swan.length;i++)
         {
     	message.channel.send(swan[i]);
+        return;
         }
   	}
 });
