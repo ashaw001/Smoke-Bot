@@ -8,7 +8,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.author.id == 159985870458322944) {
     	message.channel.send('I better get in on this one');
-        message.react(':fire:');
+        message.react('fire');
         message.channel.send('*Puff Puff*');
   	}
 });
