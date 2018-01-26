@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.author.id == 159985870458322944) {
+    if (message.author.id == 159985870458322944 && message.hit == 'them') {
     	message.channel.send('I better get in on this one');
         message.react("🔥");
         message.channel.send('*Puff Puff*');
