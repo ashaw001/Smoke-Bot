@@ -11,11 +11,11 @@ client.on('message', message => {
   	}
 });
 
-var swan = "test";
+var swan = ["test","test2","test3"];
 
 client.on('message', message => {
     if (message.author.id == 260241663018926080) {
-    	message.channel.send(swan);
+    	message.channel.send(swan[2]);
   	}
 });
 
