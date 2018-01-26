@@ -11,12 +11,12 @@ client.on('message', message => {
   	}
 });
 
-var swanreply = ["Sup swan","Staying lit fam","About to load another one"];
+var swan = ["Sup swan","Staying lit fam","About to load another one"];
 
 client.on('message', message => {
-    if (message.author.id == 260241663018926080 && message.content == 'Sup smoke bot') {
-        for (i=0;i<swanreply.length;i++){
-    	message.channel.send(swanreply[i]);
+    if (message.author.id == 260241663018926080) {
+        for (i=0;i < swan.length;i++){
+    	message.channel.send(swan[i]);
         }
     });
 
