@@ -12,7 +12,7 @@ client.on('message', message => {
   	}
 });
 
-var swanreply = ["Sup Swan","Just staying lit fam","About to pack another bowl];
+var swanreply = ["Sup Swan","Just staying lit fam","About to pack another bowl"];
 
 client.on('message', message => {
     if (message.author.id == 260241663018926080 && message.content === 'What\'s up smoke bot?') {
