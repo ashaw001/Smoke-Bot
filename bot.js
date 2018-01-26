@@ -12,16 +12,17 @@ client.on('message', message => {
 });
 
 var swan = ["test","test2","test3"];
-var i = 0;
+var test = 0;
 
 client.on('message', message => {
-    if (message.author.id == 260241663018926080) {
-        if (i < 2)
+    if (message.author.id == 260241663018926080) 
+    {
+        if (test < 2)
         {
-    	message.channel.send(swan[i]);
-        i++;
+    	message.channel.send(swan[test]);
+        test++;
         }
-        else {var i = 0;}
+        else {var test = test - 3;}
   	}
 });
 
