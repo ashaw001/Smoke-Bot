@@ -12,11 +12,9 @@ client.on('message', message => {
   	}
 });
 
-var swanreply = ["Sup Swan","Just staying lit fam","About to pack another bowl"];
-
 client.on('message', message => {
     if (message.author.id == 260241663018926080 && message.content == 'smoke bot') {
-    	message.channel.send(swanreply[1]);
+    	message.channel.send('Sup Swan');
 });
 
 // THIS  MUST  BE  THIS  WAY
