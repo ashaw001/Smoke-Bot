@@ -8,10 +8,18 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.author.id == 159985870458322944) {
     	message.channel.send('I better get in on this one');
-        message.channel.send('!toke');
   	}
 });
 
+var swanreply = ["Sup swan","Staying lit fam","About to load another one"];
+
+client.on('message', message => {
+    if (message.author.id == 260241663018926080 && message.content == 'Sup smoke bot') {
+        for (i=0;i<swanreply.length;i++){
+    	message.channel.send(swanreply[i]);}
+    }
+    else {i = i - 3;}
+});
 
 
 // THIS  MUST  BE  THIS  WAY
