@@ -6,22 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('pong');
+    if (message.content === 'Join them') {
+    	message.channel.send('I better get in on this one');
+        message.channel.send('!toke');
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'ting') {
-    	message.reply('tong');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'bing') {
-    	message.channel.sendMessage("bong");
-  	}
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
