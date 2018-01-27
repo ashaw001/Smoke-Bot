@@ -44,10 +44,16 @@ client.on('message', message => {
 
 client.on('message', message => 
 {
-    if (message.author.id == 260241663018926080 && message.content.includes == 'Start') 
+    if (message.author.id == 260241663018926080 && message.content.includes == ('Start')) 
     {
+        loop {
+        setTimeout(myFunction(), 70000);  
+       function myFunction() {
     message.channel.send('!mine');
-    message.channel.send('!collect');  
+    message.channel.send('!collect');
+}  
+        }
+ 
     }
 });
 
