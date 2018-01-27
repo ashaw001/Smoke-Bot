@@ -49,7 +49,8 @@ for (i = 0; i < 5; i++) {
    setInterval(function() {
 	message.channel.send('!mine');
 	message.channel.send('!collect');
-			}, 10000);
+	clearInterval();
+			}, 2000);
 		}
 	}
 }); 
