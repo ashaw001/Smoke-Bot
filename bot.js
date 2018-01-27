@@ -42,15 +42,16 @@ client.on('message', message => {
   	}
 });
 
+
+
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
 	message.react("👌");  //Acknowledge
-function step1(){
-	message.channel.send(i);
+	function step1(){
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	}
-function step2(){
+	function step2(){
 	message.channel.send('!buy max fracker');
 	message.channel.send('!buy max swarm');
 	message.channel.send('!buy max robot');
