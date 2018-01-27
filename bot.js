@@ -43,7 +43,7 @@ client.on('message', message => {
 });
 
 client.on('message', message =>{
-    if (message.author.id == 260241663018926080 && message.content.includes == ("start")) {
+    if (message.content.includes == ("start")) {
     message.channel.send('!mine');
     message.channel.send('!collect');
 } 
