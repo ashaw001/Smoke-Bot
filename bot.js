@@ -42,14 +42,13 @@ client.on('message', message => {
   	}
 });
 
-client.on(`message`, message => {
-  if (message.content === "/TIMER!") {
-    setTimeout(Timer, 5000);
+client.on('message', function() {
+    if (message.content === "$loop") { 
+      var interval = setInterval (function () {
+        message.channel.send("123")
+      }, 1 * 1000); 
+    }
 });
-
-function Timer() {
-  message.react("406641738946576384");
-}
 
 //client.on('message', message => {
   //  if (message.author.id == 260241663018926080 && message.content.includes("start")) {
