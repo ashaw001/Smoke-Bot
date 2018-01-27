@@ -14,9 +14,28 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content.includes("trees")) {
+        message.react("\:evergreen_tree:");
+  	}
+});
+
+client.on('message', message => {
+    if (message.content.includes("fire")) {
+        message.react("🔥");
+  	}
+});
+
+client.on('message', message => {
     if (message.author.id == 260241663018926080 && message.content == 'sup smoke bot') {
        message.channel.send('Staying lit fam');
     }
+});
+
+client.on('message', message => {
+    if (message.author.id == 260241663018926080 && message.content == 'listemojis') 
+  const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
+  message.channel.send(emojiList);
+}
 });
 
 // THIS  MUST  BE  THIS  WAY
