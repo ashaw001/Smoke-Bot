@@ -62,8 +62,8 @@ function step2(){
 	clearInterval(mine);
 	clearInterval(buy);
 	}
-while (i < 2) {
-var i;
+var i = 0;
+while (i < 10) {
  var mine = setInterval(function() {step1()}, 4000);
 	}
 });
