@@ -43,29 +43,28 @@ client.on('message', message => {
 });
 
 
+client.on('message', message =>{
+ if (message.author.id == 260241663018926080 && message.content.includes("!start_")) {
+	message.react("👌");  //Acknowledge
 function step1(){
 	message.channel.send(i);
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	var buy = setInterval(function() {step2()}, 30000);
-	clearInterval(mine);
 	}
 function step2(){
 	message.channel.send('!buy max fracker');
 	message.channel.send('!buy max swarm');
 	message.channel.send('!buy max robot');
 	message.channel.send('!buy max miner');
+	clearInterval(mine);
 	clearInterval(buy);
 	}
-
-client.on('message', message =>{
- if (message.author.id == 260241663018926080 && message.content.includes("!start_")) {
-	message.react("👌");  //Acknowledge
 for (i = 0; i < 2; i++) {
  var mine = setInterval(function() {step1()}, 60000);
  		}
 	}
-}); 
+});
 
 
 
