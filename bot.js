@@ -50,7 +50,7 @@ for (i = 0; i < 5; i++) {
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	clearInterval();
-			}, 2000);
+			}, 70000);
 		}
 	}
 }); 
