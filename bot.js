@@ -47,14 +47,23 @@ client.on('message', message =>{
 	message.react("👌");  //Acknowledge
 for (i = 0; i < 1; i++) {
  message.channel.send(i);
-  setInterval(function() {
-	message.channel.send('test1');
-	message.channel.send('test2');
-			}, 15000);
+ var mine = setInterval(function() {step1()}, 15000);
+  var buy = setInterval(function() {step2()}, 15000);
 		}
 	}
 }); 
 
+function step1(){
+	message.channel.send('!mine');
+	message.channel.send('!collect');
+	clearInterval(mine);
+	}
+	
+function step2(){
+	message.channel.send('!buy max fracker');
+	message.channel.send('!buy max swarm');
+	clearInterval(buy);
+	}
 
 
 
