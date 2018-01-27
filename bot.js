@@ -43,7 +43,7 @@ client.on('message', message => {
 });
 
 client.on('message', function() {
-    if (message.content === "$loop") { 
+    if (message.content.includes("loop")) { 
       var interval = setInterval (function () {
         message.channel.send("123")
       }, 1 * 1000); 
