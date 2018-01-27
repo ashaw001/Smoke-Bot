@@ -43,14 +43,14 @@ client.on('message', message => {
 });
 
 client.on('message', message =>{
- if (message.author.id == 260241663018926080 && message.content.includes("!start_miner")) {
-	message.react("👌"); 
-for (i = 0; i < 5; i++) {
-   setInterval(function() {
-	message.channel.send('!mine');
-	message.channel.send('!collect');
-	clearInterval();
-			}, 70000);
+ if (message.author.id == 260241663018926080 && message.content.includes("!start_")) {
+	message.react("👌");  //Acknowledge
+for (i = 0; i < 1; i++) {
+ message.channel.reply(i);
+  setInterval(function() {
+	message.channel.send('test1');
+	message.channel.send('test2');
+			}, 15000);
 		}
 	}
 }); 
