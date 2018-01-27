@@ -43,17 +43,16 @@ client.on('message', message => {
 });
 
 client.on('message', message =>{
- if (message.author.id == 260241663018926080 && message.content.includes("!start_meme_mine_bot")) {
+ if (message.author.id == 260241663018926080 && message.content.includes("!start_miner")) {
 	message.react("👌"); 
-for (i = 0; i < 10; i++) {
+for (i = 0; i < 5; i++) {
    setInterval(function() {
 	message.channel.send('!mine');
 	message.channel.send('!collect');
-			}
-, 10000);
+			}, 10000);
 		}
 	}
-});
+}); 
 
 
 
