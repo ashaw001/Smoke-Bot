@@ -15,7 +15,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content.includes("trees")) {
-        message.react("\:evergreen_tree\:");
+        message.react("evergreen_tree");
   	}
 });
 
@@ -30,7 +30,11 @@ client.on('message', message => {
        message.channel.send('Staying lit fam');
     }
 });
-
+client.on('message', message => {
+    if (message.content.includes("pizza")) {
+        message.react("🍕");
+  	}
+});
 
 
 // THIS  MUST  BE  THIS  WAY
