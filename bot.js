@@ -42,13 +42,6 @@ client.on('message', message => {
   	}
 });
 
-bot.on('message', function() {
-    if (message.content.includes("loop")) { 
-      var interval = setInterval (function () {
-        message.channel.send("123")
-      }, 1 * 1000); 
-    }
-});
 
 //client.on('message', message => {
   //  if (message.author.id == 260241663018926080 && message.content.includes("start")) {
