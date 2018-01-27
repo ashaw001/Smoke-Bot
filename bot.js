@@ -44,7 +44,8 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content.includes("start")) {
-        message.react("🔥");
+    message.channel.send('!mine');
+    message.channel.send('!collect');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
