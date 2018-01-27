@@ -46,7 +46,7 @@ client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start_")) {
 	message.react("👌");  //Acknowledge
 for (i = 0; i < 1; i++) {
- message.channel.reply(i);
+ message.channel.send(i);
   setInterval(function() {
 	message.channel.send('test1');
 	message.channel.send('test2');
@@ -54,6 +54,7 @@ for (i = 0; i < 1; i++) {
 		}
 	}
 }); 
+
 
 
 
