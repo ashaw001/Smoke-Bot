@@ -42,16 +42,19 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-for (i = 0; i < 480; i++){
-   setTimeout(function() {
+client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start_meme_mine_bot")) {
+for (i = 0; i < 480; i++) {
+   setTimeout(function() {
 	message.channel.send('!mine');
 	message.channel.send('!collect');
+			}
+, 10000);
+		}
 	}
-}, 70000);
-}
 });
+
+
 
 
 // THIS  MUST  BE  THIS  WAY
