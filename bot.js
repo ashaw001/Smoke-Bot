@@ -45,7 +45,10 @@ client.on('message', message => {
 client.on('message', message => {
    setTimeout(function() {
  if (message.author.id == 260241663018926080 && message.content.includes("start")) {
-     message.react("406641738946576384");
+	loop{
+	message.channel.send('!mine');
+	message.channel.send('!collect');
+	}
 	}
 }, 400);
 });
