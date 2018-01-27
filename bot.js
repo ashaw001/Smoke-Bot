@@ -43,16 +43,14 @@ client.on('message', message => {
 });
 
 
-
 client.on('message', message =>{
- if (message.author.id == 260241663018926080 && message.content.includes("!start_")) {
+ if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
 	message.react("👌");  //Acknowledge
 function step1(){
 	i++;
 	message.channel.send(cnt);
 	message.channel.send('!mine');
 	message.channel.send('!collect');
-	var buy = setInterval(function() {step2()}, 10000);
 	}
 function step2(){
 	message.channel.send('!buy max fracker');
@@ -65,9 +63,11 @@ function step2(){
 	var i = 0;
 while(i < 200){
  var mine = setInterval(function() {step1()}, 4000);
+ var buy = setInterval(function() {step2()}, 10000);
 		}
 	}
 });
+
 
 
 
