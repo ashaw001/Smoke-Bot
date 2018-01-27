@@ -42,12 +42,10 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message =>{
-    if (message.content.includes == ("start")) {
-    message.channel.send('!mine');
-    message.channel.send('!collect');
-} 
+client.on('message', message => {
+    if (message.content.includes("start")) {
+        message.react("🔥");
+  	}
 });
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
