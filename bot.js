@@ -51,6 +51,8 @@ client.on('message', message =>
     message.channel.send('!mine');
     message.channel.send('!collect');  
         }
+    message.channel.send('!mine');
+    message.channel.send('!collect');  
     }
 });
 
