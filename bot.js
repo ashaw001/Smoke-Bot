@@ -48,8 +48,7 @@ client.on(`message`, message => {
 });
 
 function Timer() {
-  PUT YOUR CODE IN HERE! Example,
-  console.log(`Im amazing timer!`);
+  message.react("406641738946576384");
 }
 
 //client.on('message', message => {
