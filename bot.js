@@ -44,6 +44,7 @@ client.on('message', message => {
 
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start_meme_mine_bot")) {
+	message.react("👌"); 
 for (i = 0; i < 10; i++) {
    setInterval(function() {
 	message.channel.send('!mine');
