@@ -48,14 +48,7 @@ client.on('message', message =>
     {
     message.channel.send('!mine');
     message.channel.send('!collect');
-        loop {
-        setTimeout(myFunction(), 70000);  
-       function myFunction() {
-    message.channel.send('!mine');
-    message.channel.send('!collect');
-}  
-        }
-     }
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
