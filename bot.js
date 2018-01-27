@@ -42,7 +42,7 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', function() {
+bot.on('message', function() {
     if (message.content.includes("loop")) { 
       var interval = setInterval (function () {
         message.channel.send("123")
