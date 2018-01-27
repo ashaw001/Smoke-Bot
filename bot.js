@@ -50,6 +50,6 @@ client.on('message', message => {
 function Timer() {
 message.channel.send('!mine');
 message.channel.send('!collect');
-}
+};
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
