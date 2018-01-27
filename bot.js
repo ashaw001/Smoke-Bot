@@ -43,14 +43,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.author.id == 260241663018926080 && message.content == 'Start') {
-        loop {
-        setTimeout(myFunction(), 70000);  
-       function myFunction() {
-    message.channel.send('!mine');
-    message.channel.send('!collect');
-}  
-        }
+    
 });
 
 // THIS  MUST  BE  THIS  WAY
