@@ -36,6 +36,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content.includes("weed")) {
+        message.react("406641738946576384");
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
