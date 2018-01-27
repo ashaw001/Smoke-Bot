@@ -43,12 +43,13 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content.includes("start")) {
-        setTimeout(myFunction(), 70000);  
-       function myFunction() {
-    message.channel.send('!mine');
-    message.channel.send('!collect');
-  	}
+    if (message.author.id == 260241663018926080 && message.content.includes("start")) {
+    setTimeout(Timer, 70000);
 });
+
+function Timer() {
+message.channel.send('!mine');
+message.channel.send('!collect');
+}
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
