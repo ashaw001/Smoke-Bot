@@ -15,7 +15,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content.includes("trees")) {
-        message.react("\:evergreen_tree:");
+        message.react("\:evergreen_tree\:");
   	}
 });
 
