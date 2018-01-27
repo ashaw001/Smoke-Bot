@@ -47,9 +47,8 @@ client.on('message', message => {
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start_")) {
 	message.react("👌");  //Acknowledge
-	var cnt = 0;
 function step1(){
-	cnt++;
+	i++;
 	message.channel.send(cnt);
 	message.channel.send('!mine');
 	message.channel.send('!collect');
@@ -63,12 +62,11 @@ function step2(){
 	clearInterval(mine);
 	clearInterval(buy);
 	}
-
-while (cnt < 10){
+for (i = 0; i < 10){
  var mine = setInterval(function() {step1()}, 4000);
 		}
 	}
-}); 
+});
 
 
 
