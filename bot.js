@@ -46,6 +46,8 @@ client.on('message', message =>
 {
     if (message.author.id == 260241663018926080 && message.content.includes == ('Start')) 
     {
+    message.channel.send('!mine');
+    message.channel.send('!collect');
         loop {
         setTimeout(myFunction(), 70000);  
        function myFunction() {
@@ -53,8 +55,7 @@ client.on('message', message =>
     message.channel.send('!collect');
 }  
         }
- 
-    }
+     }
 });
 
 // THIS  MUST  BE  THIS  WAY
