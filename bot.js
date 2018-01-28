@@ -45,19 +45,10 @@ client.on('message', message => {
 
 
 
-
-
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
 	message.react("👌");  //Acknowledge
-	var i = 0;
-	do{
-var mine = setInterval(function(){step1()}, 1000);
-var buy = setInterval(function (){step2()}, 2000);
-}
-while(i<10);
 function step1(){
-	i++;
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	clearInterval(mine);
@@ -69,9 +60,10 @@ function step2(){
 	message.channel.send('!buy max miner');
 	clearInterval(buy);
 	}	
-	}
+var mine = setInterval(function(){step1()}, 1000);
+var buy = setInterval(function (){step2()}, 2000);	
+}
 });
-
 
 
 
