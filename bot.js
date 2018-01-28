@@ -48,7 +48,7 @@ client.on('message', message =>{
 	message.react("👌");  //Acknowledge
 	for(cont = 0;cont < 10; cont++){
 function step1(){
-	//message.channel.send(i);
+	message.channel.send(cont);
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	clearInterval(mine);
