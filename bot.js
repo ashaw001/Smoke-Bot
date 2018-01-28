@@ -48,26 +48,28 @@ client.on('message', message =>{
 	message.react("👌");  //Acknowledge
 	var cont = 0; 
 	message.channel.send(cont);
-	if(cont < 50){
 function step1(){
+	if(cont < 50){
 	message.channel.send(cont);
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	clearInterval(mine);
-	}
+	}}
 function step2(){
+	if(cont < 50){
 	message.channel.send('!buy max fracker');
 	message.channel.send('!buy max swarm');
 	message.channel.send('!buy max robot');
 	message.channel.send('!buy max miner');
+	var cont = cont + 1
 	clearInterval(buy);
-	}
+	}}
+	
  var mine = setInterval(function(){step1()}, 1000);
  var buy = setInterval(function (){step2()}, 2000);
- 						}
+ 						
 	}
 });
-
 
 
 // THIS  MUST  BE  THIS  WAY
