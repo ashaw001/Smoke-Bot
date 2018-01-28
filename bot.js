@@ -42,7 +42,6 @@ client.on('message', message => {
   	}
 });
 
-
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
 	message.react("👌");  //Acknowledge
@@ -62,6 +61,7 @@ function step2(){
 	message.channel.send('!buy max robot');
 	message.channel.send('!buy max miner');
 	var cont = cont + 1;
+	message.channel.send(cont);
 	clearInterval(buy);
 	}}
 	
@@ -70,6 +70,7 @@ function step2(){
  						
 	}
 });
+
 
 
 // THIS  MUST  BE  THIS  WAY
