@@ -61,7 +61,7 @@ function step2(){
 	message.channel.send('!buy max swarm');
 	message.channel.send('!buy max robot');
 	message.channel.send('!buy max miner');
-	cont = cont + 1
+	var cont = cont + 1;
 	clearInterval(buy);
 	}}
 	
