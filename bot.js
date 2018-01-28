@@ -47,7 +47,7 @@ client.on('message', message => {
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
 	message.react("👌");  //Acknowledge
-	for(i = 0;i < 10; i++){
+	for(cont = 0;cont < 10; cont++){
 function step1(){
 	//message.channel.send(i);
 	message.channel.send('!mine');
