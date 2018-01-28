@@ -64,7 +64,7 @@ function step2(){
  var mine = setInterval(function(){step1()}, 1000);
  var buy = setInterval(function (){step2()}, 2000);
 		if (i > 25){
-		var i = i - 20;}
+		i = i - 20;}
 	}
 	}
 });
