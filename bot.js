@@ -50,6 +50,7 @@ client.on('message', message =>{
 	message.channel.send(cont);
 	if(cont < 500000000){
 function step1(){
+	var cont = cont + 1;
 	message.channel.send(cont);
 	message.channel.send('!mine');
 	message.channel.send('!collect');
@@ -64,8 +65,7 @@ function step2(){
 	}
  var mine = setInterval(function(){step1()}, 1000);
  var buy = setInterval(function (){step2()}, 2000);
- var cont = cont + 1;
-						}
+ 						}
 	}
 });
 
