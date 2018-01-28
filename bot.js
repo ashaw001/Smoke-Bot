@@ -61,8 +61,8 @@ function step2(){
 	message.channel.send('!buy max miner');
 	clearInterval(buy);
 	}
- var mine = setInterval(function() {step1()}, 2000);
- var buy = setInterval(function() {step2()}, 10000);
+ var mine = setInterval(function() {step1()}, 1000);
+ var buy = setInterval(function() {step2()}, 2000);
  //i--;
 						//}
 	}
