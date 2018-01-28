@@ -45,29 +45,27 @@ client.on('message', message => {
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
 	message.react("👌");  //Acknowledge
-	var cont = 0; 
-	message.channel.send(cont);
+	var stop = 50;
+	message.channel.send(stop);
+for(i = 0;i < stop; i++){
 function step1(){
-	if(cont < 50){
-	message.channel.send(cont);
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	clearInterval(mine);
-	var cont = cont + 1;
-	}}
-function step2(){
-	if(cont < 50){
+	}
+function step2(){	
 	message.channel.send('!buy max fracker');
 	message.channel.send('!buy max swarm');
 	message.channel.send('!buy max robot');
 	message.channel.send('!buy max miner');
 	message.channel.send(cont);
 	clearInterval(buy);
-	}}
-	
+	}	
  var mine = setInterval(function(){step1()}, 1000);
  var buy = setInterval(function (){step2()}, 2000);
- 						
+		if (i > 25){
+		var i = i - 20;}
+	}
 	}
 });
 
