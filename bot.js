@@ -48,9 +48,8 @@ client.on('message', message =>{
 	message.react("👌");  //Acknowledge
 	var cont = 0; 
 	message.channel.send(cont);
-	if(cont < 500000000){
+	if(cont < 50){
 function step1(){
-	var cont = cont + 1;
 	message.channel.send(cont);
 	message.channel.send('!mine');
 	message.channel.send('!collect');
