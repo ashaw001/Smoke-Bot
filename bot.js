@@ -53,6 +53,7 @@ function step1(){
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	clearInterval(mine);
+	var cont = cont + 1;
 	}}
 function step2(){
 	if(cont < 50){
@@ -60,7 +61,6 @@ function step2(){
 	message.channel.send('!buy max swarm');
 	message.channel.send('!buy max robot');
 	message.channel.send('!buy max miner');
-	var cont = cont + 1;
 	message.channel.send(cont);
 	clearInterval(buy);
 	}}
@@ -70,6 +70,7 @@ function step2(){
  						
 	}
 });
+
 
 
 
