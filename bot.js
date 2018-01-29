@@ -62,11 +62,11 @@ function step2(){
 	}
 var mine = setInterval(function(){step1(1)}, 70000);
 var buy = setInterval(function (){step2(1)}, 69900);
-}
 if (message.author.id == 260241663018926080 && message.content.includes("!stop")) {
 message.react("👌");
 clearInterval(buy);
 clearInterval(mine);
+}
 }});
 
 
