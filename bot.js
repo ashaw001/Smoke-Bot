@@ -51,7 +51,7 @@ client.on('message', message =>{
 function step1(){
 	message.channel.send('!mine');
 	message.channel.send('!collect');
-	
+	message.channel.send('!memes');
 	}
 function step2(){	
 	message.channel.send('!buy max fracker');
@@ -61,7 +61,7 @@ function step2(){
 	message.channel.send('!prestige YESIMSURE');
 	}
 var mine = setInterval(function(){step1(1)}, 70000);
-var buy = setInterval(function (){step2(1)}, 69900);
+var buy = setInterval(function (){step2(1)}, 69500);
 
 }
 if (message.author.id == 260241663018926080 && message.content.includes("!stop")) {
