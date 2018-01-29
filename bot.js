@@ -61,7 +61,7 @@ function step2(){
 var mine = setInterval(function(){step1()}, 2000);
 var buy = setInterval(function (){step2()}, 6000);	
 }
-if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
+if (message.author.id == 260241663018926080 && message.content.includes("!stop")) {
 clearInterval(buy);
 clearInterval(mine);
 }});
