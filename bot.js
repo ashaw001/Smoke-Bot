@@ -63,7 +63,7 @@ function step3(){
 function step4(){	
 	message.channel.send('!buy max robot');
 	}
-function step4(){	
+function step5(){	
 	message.channel.send('!buy max miner');
 	}
 	
