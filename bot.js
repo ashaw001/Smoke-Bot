@@ -68,10 +68,10 @@ function step5(){
 	}
 	
 var one = setInterval(function(){step1(1)}, 73000);
-var two = setInterval(function (){step2(1)}, 75000);
-var three = setInterval(function(){step3(1)}, 60000);
-var four = setInterval(function (){step4(1)}, 45000);
-var five = setInterval(function (){step5(1)}, 30000);
+var two = setInterval(function (){step2(1)}, 30000);
+var three = setInterval(function(){step3(1)}, 45000);
+var four = setInterval(function (){step4(1)}, 60000);
+var five = setInterval(function (){step5(1)}, 75000);
 }
 });
 
