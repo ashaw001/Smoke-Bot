@@ -38,24 +38,24 @@ var five = setInterval(function (){step5(1)}, 75000);
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!levelup")) {
 	message.react("👍");  //Acknowledge
-function step1(){
+function stepone(){
 	message.channel.send('!buy max fracker');
 	}
-function step2(){	
+function steptwo(){	
 	message.channel.send('!buy max swarm');
 	}
-function step3(){
+function stepthree(){
 	message.channel.send('!buy max robot');
 	}
-function step4(){	
+function stepfour(){	
 	message.channel.send('!buy max miner');
 	message.channel.send('!prestige YESIMSURE');
 	}
 	
-var one1 = setInterval(function(){step1(1)}, 1000);
-var two2 = setInterval(function (){step2(1)}, 1750);
-var three3 = setInterval(function(){step3(1)}, 2500);
-var four4 = setInterval(function (){step4(1)}, 3250);
+var one1 = setInterval(function(){stepone(1)}, 2000);
+var two2 = setInterval(function (){steptwo(1)}, 3000);
+var three3 = setInterval(function(){stepthree(1)}, 4000);
+var four4 = setInterval(function (){stepfour(1)}, 5000);
 }
 });
 
