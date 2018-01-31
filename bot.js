@@ -39,9 +39,9 @@ function start(){
 
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start2")) {
-	
+	 message.react("👍");  //Acknowledge
 function strt(){
-	message.react("👍");  //Acknowledge
+	message.channel.send('!mine');
 	/*var one = setTimeout(function(){
 	message.channel.send('!prestige YESIMSURE');
 	message.channel.send('!mine');
