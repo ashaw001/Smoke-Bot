@@ -35,6 +35,8 @@ var five = setInterval(function (){step5(1)}, 75000);
 }
 });
 
+
+
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!levelup")) {
 	message.react("👍");  //Acknowledge
@@ -53,9 +55,9 @@ function stepfour(){
 	}
 	
 var one1 = setInterval(function(){stepone(1)}, 2000);
-var two2 = setInterval(function (){steptwo(1)}, 3000);
-var three3 = setInterval(function(){stepthree(1)}, 4000);
-var four4 = setInterval(function (){stepfour(1)}, 5000);
+var two2 = setInterval(function (){steptwo(1)}, 4000);
+var three3 = setInterval(function(){stepthree(1)}, 6000);
+var four4 = setInterval(function (){stepfour(1)}, 8000);
 }
 });
 
