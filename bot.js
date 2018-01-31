@@ -39,9 +39,10 @@ function start(){
 
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start2")) {
-	message.react("👍");  //Acknowledge
+	
 function strt(){
-	var one = setTimeout(function(){
+	message.react("👍");  //Acknowledge
+	/*var one = setTimeout(function(){
 	message.channel.send('!prestige YESIMSURE');
 	message.channel.send('!mine');
 	message.channel.send('!collect');
@@ -50,9 +51,9 @@ function strt(){
 	var two = setTimeout(function(){message.channel.send('!buy max fracker');}, 30000);
 	var three = setTimeout(function(){message.channel.send('!buy max swarm');}, 35000);
 	var four = setTimeout(function(){message.channel.send('!buy max robot');}, 40000);
-	var five = setTimeout(function(){message.channel.send('!buy max miner');}, 45000);
+	var five = setTimeout(function(){message.channel.send('!buy max miner');}, 45000);*/
 	}
-var strt = setInterval(function(){strt(1)}, 71000);
+var strt = setInterval(function(){strt(1)}, 1000);
 
 }
 });
