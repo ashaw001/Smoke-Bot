@@ -35,7 +35,7 @@ function step5(){
 	var four = setTimeout(function() {step4(1)}, 40000);
 	var five = setTimeout(function() {step5(1)}, 45000);
 	}
-var strt1 - setInterval(function() {strt(1)}, 1000);
+var strt1 = setInterval(function() {strt(1)}, 1000);
 });
 
 
