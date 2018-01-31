@@ -30,12 +30,12 @@ function step5(){
 	message.channel.send('!prestige YESIMSURE');
 	}
 	var one = setTimeout(function() {step1(1)}, 1000);
-	var two = setTimeout(function() {step2(1)}, 30000);
-	var three = setTimeout(function() {step3(1)}, 35000);
-	var four = setTimeout(function() {step4(1)}, 40000);
-	var five = setTimeout(function() {step5(1)}, 45000);
+	var two = setTimeout(function() {step2(1)}, 1500);
+	var three = setTimeout(function() {step3(1)}, 2000);
+	var four = setTimeout(function() {step4(1)}, 2500);
+	var five = setTimeout(function() {step5(1)}, 3000);
 	}
-var strt1 = setInterval(function() {strt(1)}, 1000);
+var strt1 = setInterval(function() {strt(1)}, 20000);
 });
 
 
