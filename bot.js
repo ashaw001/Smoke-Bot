@@ -35,7 +35,7 @@ function runscript(){
 	var four = setTimeout(function() {step4(1)}, 50000);
 	var five = setTimeout(function() {step5(1)}, 60000);
 	}
-var strt = setInterval(function() {runscript(1)}, 70000);
+var strt = setInterval(function() {runscript(1)}, 70000);}
 });
 
 
