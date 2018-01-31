@@ -40,6 +40,8 @@ function start(){
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start2")) {
 	message.react("👍");  //Acknowledge
+
+var start = setInterval(function(){start(1)}, 71000);
 function start(){
 	/*var one = setTimeout(function(){
 	message.channel.send('!prestige YESIMSURE');
@@ -52,8 +54,6 @@ function start(){
 	var four = setTimeout(function(){message.channel.send('!buy max robot');}, 40000);
 	var five = setTimeout(function(){message.channel.send('!buy max miner');}, 45000);
 	}
-var start = setInterval(function(){start(1)}, 71000);
-
 }
 });
 
