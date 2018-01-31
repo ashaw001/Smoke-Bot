@@ -9,11 +9,11 @@ client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
 	message.react("👍");  //Acknowledge
 function start(){
-var one = setTimeout(function(){step1(1)}, 1000);
-var two = setTimeout(function(){step2(1)}, 30000);
-var three = setTimeout(function(){step3(1)}, 35000);
-var four = setTimeout(function(){step4(1)}, 40000);
-var five = setTimeout(function(){step5(1)}, 45000);
+var one = setTimeout(function() {step1(1)}, 1000);
+var two = setTimeout(function() {step2(1)}, 30000);
+var three = setTimeout(function() {step3(1)}, 35000);
+var four = setTimeout(function() {step4(1)}, 40000);
+var five = setTimeout(function() {step5(1)}, 45000);
 	}
 function step1(){
 	message.channel.send('!prestige YESIMSURE');
