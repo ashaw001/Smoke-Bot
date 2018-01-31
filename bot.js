@@ -29,14 +29,14 @@ function runscript(){
 	message.channel.send('!buy max miner');
 	message.channel.send('!prestige YESIMSURE');
 	}
-	var one = setTimeout(function() {step1(1)}, 1000);
-	var two = setTimeout(function() {step2(1)}, 1500);
-	var three = setTimeout(function() {step3(1)}, 2000);
-	var four = setTimeout(function() {step4(1)}, 2500);
-	var five = setTimeout(function() {step5(1)}, 3000);
+	var one = setTimeout(function() {step1(1)}, 500);
+	var two = setTimeout(function() {step2(1)}, 30000);
+	var three = setTimeout(function() {step3(1)}, 40000);
+	var four = setTimeout(function() {step4(1)}, 50000);
+	var five = setTimeout(function() {step5(1)}, 60000);
 	}
-var strt = setInterval(runscript(1), 20000);
-}});
+var strt = setInterval(function() {runscript(1)}, 70000);
+});
 
 
 client.on('message', message =>{
