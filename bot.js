@@ -36,7 +36,7 @@ function runscript(){
 	var five = setTimeout(function() {step5(1)}, 3000);
 	}
 var strt = setInterval(runscript(1), 20000);
-});
+}});
 
 
 client.on('message', message =>{
