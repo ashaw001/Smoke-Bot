@@ -35,7 +35,7 @@ function start(){
 	var five = setTimeout(function() {step5(1)}, 45000);
 	}
 }
-});*/
+});
 
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start2")) {
@@ -55,7 +55,7 @@ function start(){
 var start = setInterval(function(){start(1)}, 71000);
 
 }
-});
+});*/
 
 
 client.on('message', message =>{
