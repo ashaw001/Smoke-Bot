@@ -38,6 +38,37 @@ function runscript(){
 var strt = setInterval(function() {runscript(1)}, 70000);}
 });
 
+client.on('message', message =>{
+ if (message.author.id == 260241663018926080 && message.content.includes("!levelup")) {
+	message.react("👍");  //Acknowledge
+function runscript(){
+	/*function step1(){
+	message.channel.send('!mine');
+	message.channel.send('!collect');
+	message.channel.send('!memes');
+	}*/
+	function step2(){	
+	message.channel.send('!buy max fracker');
+	}
+	function step3(){
+	message.channel.send('!buy max swarm');
+	}
+	function step4(){	
+	message.channel.send('!buy max robot');
+	}
+	function step5(){	
+	message.channel.send('!buy max miner');
+	message.channel.send('!prestige YESIMSURE');
+	}
+	//var one = setTimeout(function() {step1(1)}, 500);
+	var two = setTimeout(function() {step2(1)}, 1000);
+	var three = setTimeout(function() {step3(1)}, 4000);
+	var four = setTimeout(function() {step4(1)}, 8000);
+	var five = setTimeout(function() {step5(1)}, 11000);
+	}
+var strt = setInterval(function() {runscript(1)}, 20000);}
+});
+
 
 client.on('message', message =>{
  if (message.content.includes("!buy4")) {message.channel.send('!buy max fracker');}});
