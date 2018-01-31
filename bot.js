@@ -6,9 +6,11 @@ client.on('ready', () => {
 });
 
 
+
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
 	message.react("👍");  //Acknowledge
+function strt(){
 function step1(){
 	message.channel.send('!mine');
 	message.channel.send('!collect');
@@ -33,6 +35,7 @@ function step5(){
 	var four = setTimeout(function() {step4(1)}, 40000);
 	var five = setTimeout(function() {step5(1)}, 45000);
 	}
+var strt1 - setInterval(function() {strt(1)}, 1000);
 });
 
 
