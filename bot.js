@@ -18,6 +18,7 @@ function routine1(){
 	message.channel.send('!memes');
 	}
 	function step2(){
+	message.channel.send('!tip 1000000000 <@406242325476671508>');
 	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max fracker');
 	}
@@ -47,6 +48,7 @@ function routine2(){
 	message.channel.send('!buy max fracker');
 	}*/
 	function step3(){
+	message.channel.send('!tip 1000000000 <@406242325476671508>');
 	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max swarm');
 	}
@@ -76,6 +78,7 @@ function routine3(){
 	message.channel.send('!buy max swarm');
 	}*/
 	function step4(){
+	message.channel.send('!tip 1000000000 <@406242325476671508>');
 	message.channel.send('!tip 1000000 <@406242325476671508>');		
 	message.channel.send('!buy max robot');
 	}
@@ -105,6 +108,7 @@ function routine4(){
 	message.channel.send('!buy max robot');
 	}*/
 	function step5(){
+	message.channel.send('!tip 1000000000 <@406242325476671508>');
 	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max miner');
 	message.channel.send('!prestige YESIMSURE');
