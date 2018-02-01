@@ -63,10 +63,10 @@ function runscript(){
 	//var one = setTimeout(function() {step1(1)}, 500);
 	var two = setTimeout(function() {step2(1)}, 1000);
 	var three = setTimeout(function() {step3(1)}, 4000);
-	var four = setTimeout(function() {step4(1)}, 8000);
-	var five = setTimeout(function() {step5(1)}, 11000);
+	var four = setTimeout(function() {step4(1)}, 7000);
+	var five = setTimeout(function() {step5(1)}, 10000);
 	}
-var strt = setInterval(function() {runscript(1)}, 20000);}
+var strt = setInterval(function() {runscript(1)}, 12000);}
 });
 
 
