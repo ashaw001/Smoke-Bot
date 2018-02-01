@@ -120,11 +120,8 @@ var routineB = setTimeout(function() {routine2(1)}, 73000);
 var routineC = setTimeout(function() {routine3(1)}, 143000);
 var routineD = setTimeout(function() {routine4(1)}, 213000);
 		}
-	var routineOne = setTimeout(function() {routine1(1)}, 3000);
-	var routineTwo = setTimeout(function() {routine2(1)}, 73000);
-	var routineThree = setTimeout(function() {routine3(1)}, 143000);
-	var routineFour = setTimeout(function() {routine4(1)}, 213000);
-	var initial = setInterval(function() {strt(1)}, 300000);
+	var initial1 = setTimeout(function() {strt(1)}, 200);
+	var initial2 = setInterval(function() {strt(1)}, 300000);
  }
 });
 //________________________________________________________________________________________________________________________
