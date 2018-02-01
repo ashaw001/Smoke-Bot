@@ -17,7 +17,8 @@ function routine1(){
 	message.channel.send('!collect');
 	message.channel.send('!memes');
 	}
-	function step2(){	
+	function step2(){
+	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max fracker');
 	}
 	function step3(){
@@ -46,6 +47,7 @@ function routine2(){
 	message.channel.send('!buy max fracker');
 	}*/
 	function step3(){
+	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max swarm');
 	}
 	function step4(){	
@@ -73,7 +75,8 @@ function routine3(){
 	function step3(){
 	message.channel.send('!buy max swarm');
 	}*/
-	function step4(){	
+	function step4(){
+	message.channel.send('!tip 1000000 <@406242325476671508>');		
 	message.channel.send('!buy max robot');
 	}
 	function step5(){	
@@ -101,7 +104,8 @@ function routine4(){
 	function step4(){	
 	message.channel.send('!buy max robot');
 	}*/
-	function step5(){	
+	function step5(){
+	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max miner');
 	message.channel.send('!prestige YESIMSURE');
 	}
@@ -116,9 +120,15 @@ var routineB = setTimeout(function() {routine2(1)}, 73000);
 var routineC = setTimeout(function() {routine3(1)}, 143000);
 var routineD = setTimeout(function() {routine4(1)}, 213000);
 		}
+	var routineOne = setTimeout(function() {routine1(1)}, 3000);
+	var routineTwo = setTimeout(function() {routine2(1)}, 73000);
+	var routineThree = setTimeout(function() {routine3(1)}, 143000);
+	var routineFour = setTimeout(function() {routine4(1)}, 213000);
 	var initial = setInterval(function() {strt(1)}, 300000);
  }
 });
+//________________________________________________________________________________________________________________________
+//_______________________________________________________________________________________________________________________
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!levelup")) {
 	message.react("👍");  //Acknowledge
