@@ -62,11 +62,11 @@ function runscript(){
 	}
 	//var one = setTimeout(function() {step1(1)}, 500);
 	var two = setTimeout(function() {step2(1)}, 500);
-	var three = setTimeout(function() {step3(1)}, 5000);
-	var four = setTimeout(function() {step4(1)}, 10000);
-	var five = setTimeout(function() {step5(1)}, 15000);
+	var three = setTimeout(function() {step3(1)}, 8000);
+	var four = setTimeout(function() {step4(1)}, 16000);
+	var five = setTimeout(function() {step5(1)}, 24000);
 	}
-var strt = setInterval(function() {runscript(1)}, 18000);}
+var strt = setInterval(function() {runscript(1)}, 30000);}
 });
 
 
