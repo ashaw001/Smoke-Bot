@@ -209,6 +209,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content.includes("geo")) {
+        message.react("406600113683693569");
+  	}
+});
 
 
 // THIS  MUST  BE  THIS  WAY
