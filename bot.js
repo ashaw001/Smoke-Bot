@@ -108,7 +108,7 @@ function routine4(){
 	message.channel.send('!buy max robot');
 	}*/
 	function step5(){
-	message.channel.send('!tip 1000000000 <@406242325476671508>');
+	message.channel.send('!tip 50000000000 <@260241663018926080>');
 	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max miner');
 	message.channel.send('!prestige YESIMSURE');
