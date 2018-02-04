@@ -16,6 +16,7 @@ function routine1(){
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	message.channel.send('!memes');
+	message.channel.send('!tip 5000000000000 <@260241663018926080>');
 	}
 	function step2(){
 	message.channel.send('!tip 50000000000 <@406242325476671508>');
@@ -44,9 +45,13 @@ function routine2(){
 	message.channel.send('!collect');
 	message.channel.send('!memes');
 	}
-	/*function step2(){	
-	message.channel.send('!buy max fracker');
-	}*/
+	function step2(){	
+	message.channel.send('!tip 5000000000000 <@260241663018926080>');
+	message.channel.send('!tip 2000000000000 <@260241663018926080>');
+	message.channel.send('!tip 50000000000 <@260241663018926080>');
+	message.channel.send('!tip 20000000000 <@260241663018926080>');
+	}
+	
 	function step3(){
 	message.channel.send('!tip 1000000000 <@406242325476671508>');
 	message.channel.send('!tip 1000000 <@406242325476671508>');
@@ -60,7 +65,7 @@ function routine2(){
 	message.channel.send('!prestige YESIMSURE');
 	}
 	var one = setTimeout(function() {step1(1)}, 500);
-	//var two = setTimeout(function() {step2(1)}, 30000);
+	var two = setTimeout(function() {step2(1)}, 30000);
 	var three = setTimeout(function() {step3(1)}, 40000);
 	var four = setTimeout(function() {step4(1)}, 50000);
 	var five = setTimeout(function() {step5(1)}, 60000);
@@ -70,6 +75,7 @@ function routine3(){
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	message.channel.send('!memes');
+	message.channel.send('!tip 5000000000000 <@260241663018926080>');
 	}
 	/*function step2(){	
 	message.channel.send('!buy max fracker');
