@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
-	message.react("??");  //Acknowledge
+	message.react("👌");  //Acknowledge
 function strt () {
 function routine1(){
 	function step1(){
