@@ -168,6 +168,8 @@ var strt = setTimeout(function() {runscript(1)}, 200);
 var strt2 = setInterval(function() {runscript(1)}, 128000);}
 });
 
+//________________________________________________________________________________________________________________________
+//_______________________________________________________________________________________________________________________
 
 client.on('message', message =>{
  if (message.content.includes("!buy4")) {message.channel.send('!buy max fracker');}});
