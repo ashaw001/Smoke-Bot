@@ -19,8 +19,6 @@ function routine1(){
 	message.channel.send('!tip 5000000000000 <@260241663018926080>');
 	}
 	function step2(){
-	message.channel.send('!tip 50000000000 <@406242325476671508>');
-	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max fracker');
 	}
 	function step3(){
@@ -53,8 +51,6 @@ function routine2(){
 	}
 	
 	function step3(){
-	message.channel.send('!tip 1000000000 <@406242325476671508>');
-	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max swarm');
 	}
 	function step4(){	
@@ -88,8 +84,6 @@ function routine3(){
 	message.channel.send('!tip 10000 <@260241663018926080>');
 	}
 	function step4(){
-	message.channel.send('!tip 1000000000 <@406242325476671508>');
-	message.channel.send('!tip 1000000 <@406242325476671508>');		
 	message.channel.send('!buy max robot');
 	}
 	function step5(){	
@@ -121,7 +115,6 @@ function routine4(){
 	}
 	function step5(){
 	message.channel.send('!tip 50000000000 <@260241663018926080>');
-	message.channel.send('!tip 1000000 <@406242325476671508>');
 	message.channel.send('!buy max miner');
 	message.channel.send('!prestige YESIMSURE');
 	}
@@ -146,31 +139,25 @@ client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!levelup")) {
 	message.react("👍");  //Acknowledge
 function runscript(){
-	/*function step1(){
+	function step1(){
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	message.channel.send('!memes');
-	}*/
-	function step2(){	
-	message.channel.send('!buy max fracker');
 	}
-	function step3(){
-	message.channel.send('!buy max swarm');
-	}
-	function step4(){	
-	message.channel.send('!buy max robot');
-	}
-	function step5(){	
+	function step2(){
+	message.channel.send('!tip 50000000000000000 <@260241663018926080>');
+	message.channel.send('!tip 10000000000000000 <@260241663018926080>');
+	message.channel.send('!tip 500000000000000 <@260241663018926080>');
+	message.channel.send('!tip 100000000000000 <@260241663018926080>');
+	message.channel.send('!tip 20000000000000 <@260241663018926080>');
+	message.channel.send('!tip 200000000000 <@260241663018926080>');
+	message.channel.send('!tip 5000000 <@260241663018926080>');
 	message.channel.send('!buy max miner');
-	message.channel.send('!prestige YESIMSURE');
 	}
-	//var one = setTimeout(function() {step1(1)}, 500);
-	var two = setTimeout(function() {step2(1)}, 500);
-	var three = setTimeout(function() {step3(1)}, 8000);
-	var four = setTimeout(function() {step4(1)}, 16000);
-	var five = setTimeout(function() {step5(1)}, 24000);
+	var one = setTimeout(function() {step1(1)}, 500);
+	var two = setTimeout(function() {step2(1)}, 3500);
 	}
-var strt = setInterval(function() {runscript(1)}, 30000);}
+var strt = setInterval(function() {runscript(1)}, 22000);}
 });
 
 
