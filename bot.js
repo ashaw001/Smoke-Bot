@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-	client.user.setPresence( { streaming: {name: 'myself smoking a bowl', type: 1 }});
+	client.user.setPresence( { playing: {name: 'smoking a bowl', type: 0 }});
 	console.log('I am ready!');
 });
 
