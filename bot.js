@@ -6,8 +6,7 @@ client.on('ready', () => {
 	console.log('I am ready!');
 });
 
-
-
+//S T A R T______________________________________________________________________________________________
 
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!start")) {
