@@ -144,10 +144,10 @@ function runscript(){
 	message.channel.send('!mine');
 	message.channel.send('!collect');
 	message.channel.send('!memes');
-	message.channel.send('!tip 50000000000000000 <@159985870458322944>');
-	message.channel.send('!tip 10000000000000000 <@159985870458322944>');
 	}
 	function step2(){
+	message.channel.send('!tip 50000000000000000 <@159985870458322944>');
+	message.channel.send('!tip 10000000000000000 <@159985870458322944>');
 	message.channel.send('!tip 5000000 <@159985870458322944>');
 	}
 	function step3(){
@@ -157,7 +157,7 @@ function runscript(){
 	message.channel.send('!buy max miner');
 	}
 	var one = setTimeout(function() {step1(1)}, 100);
-	var two = setTimeout(function() {step2(1)}, 3500);
+	var two = setTimeout(function() {step2(1)}, 10000);
 	//var three = setTimeout(function() {step3(1)}, 64000);
 	}
 var strt = setTimeout(function() {runscript(1)}, 200);
