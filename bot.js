@@ -30,7 +30,7 @@ function routine1(){
 	}
 	function step5(){	
 	message.channel.send('!buy max miner');
-	message.channel.send('!prestige YESIMSURE');
+	//message.channel.send('!prestige YESIMSURE');
 	}
 	var one = setTimeout(function() {step1(1)}, 500);
 	var two = setTimeout(function() {step2(1)}, 30000);
