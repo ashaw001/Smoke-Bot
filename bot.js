@@ -158,7 +158,7 @@ function runscript(){
 	}
 	var one = setTimeout(function() {step1(1)}, 100);
 	var two = setTimeout(function() {step2(1)}, 10000);
-	//var three = setTimeout(function() {step3(1)}, 64000);
+	var three = setTimeout(function() {step3(1)}, 64000);
 	}
 var strt = setTimeout(function() {runscript(1)}, 200);
 var strt2 = setInterval(function() {runscript(1)}, 900000);}
