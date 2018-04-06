@@ -161,7 +161,7 @@ function runscript(){
 	//var three = setTimeout(function() {step3(1)}, 64000);
 	}
 var strt = setTimeout(function() {runscript(1)}, 200);
-var strt2 = setInterval(function() {runscript(1)}, 128000);}
+var strt2 = setInterval(function() {runscript(1)}, 900000);}
 });
 
 //________________________________________________________________________________________________________________________
