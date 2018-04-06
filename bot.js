@@ -131,7 +131,7 @@ var routineC = setTimeout(function() {routine3(1)}, 143000);
 var routineD = setTimeout(function() {routine4(1)}, 213000);
 		}
 	var initial1 = setTimeout(function() {strt(1)}, 200);
-	var initial2 = setInterval(function() {strt(1)}, 300000);
+	var initial2 = setInterval(function() {strt(1)}, 900000);
  }
 });
 //________________________________________________________________________________________________________________________
