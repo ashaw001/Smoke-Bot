@@ -136,6 +136,30 @@ var routineD = setTimeout(function() {routine4(1)}, 213000);
 });
 //________________________________________________________________________________________________________________________
 //_______________________________________________________________________________________________________________________
+
+client.on('message', message =>{
+ if (message.author.id == 260241663018926080 && message.content.includes("!check")) {
+	message.channel.send('!mine');
+	message.channel.send('!collect');
+	message.channel.send('!memes'); 
+ });
+
+client.on('message', message =>{
+ if (message.author.id == 260241663018926080 && message.content.includes("!retry")) {
+	message.channel.send('!buy max fracker');
+	message.channel.send('!buy max swarm');
+	message.channel.send('!buy max robot');
+	message.channel.send('!buy max miner');
+ });
+
+client.on('message', message =>{
+ if (message.author.id == 260241663018926080 && message.content.includes("!give")) {
+	message.channel.send('!tip 250000000000000 <@260241663018926080>');
+	message.channel.send('!tip 250000000000000 <@260241663018926080>');
+ });	
+
+//________________________________________________________________________________________________________________________
+//_______________________________________________________________________________________________________________________
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!levelup")) {
 	message.react("👍");  //Acknowledge
